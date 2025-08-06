@@ -1,0 +1,123 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  padding: 20px;
+  background-color: rgb(204, 195, 202); 
+  color: #333;
+  text-align: center;
+}
+
+
+header h1 {
+  margin-bottom: 20px;
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+.search-section input {
+  padding: 10px;
+  width: 250px;
+  max-width: 90%;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-section button {
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 250px;          
+  height: 300px;         
+  object-fit: cover;     
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+}
+
+.card h3 {
+  margin-top: 15px;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.inspiration {
+  font-style: italic;
+  color: #070f15;
+  margin-top: 15px;
+}
+
+.card h4 {
+  margin-top: 15px;
+  color: #444;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.card .inspiration {
+  color: #0e1b25;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.details-block {
+  margin-top: 15px;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.details-block p {
+  margin: 8px 0;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+.inspiration {
+  color: #060f15;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    padding: 15px;
+  }
+}
